@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://MarioTruong.github.io/index.html</loc>
-    <lastmod>2025-02-14T06:17:03.465Z</lastmod>
+    <loc>https://MarioTruong.github.io/posts/First Post/First Post.html</loc>
+    <lastmod>2025-02-25T02:39:17.281Z</lastmod>
   </url>
   <url>
     <loc>https://MarioTruong.github.io/about.html</loc>
-    <lastmod>2025-02-14T05:00:15.384Z</lastmod>
+    <lastmod>2025-02-25T06:11:28.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarioTruong.github.io/blog.html</loc>
+    <lastmod>2025-02-25T02:36:36.367Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MarioTruong.github.io/pens.html</loc>
+    <lastmod>2025-02-25T05:30:20.957Z</lastmod>
   </url>
 </urlset>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – Mario Truong</title>
+<title>Wait, you actually clicked on this? – Mario Truong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -117,13 +146,13 @@ ul.task-list li input[type="checkbox"] {
     </span>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pens.html"> 
+    <a class="nav-link active" href="./pens.html" aria-current="page"> 
 <span class="menu-text">Pen Enthusiast</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -161,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Wait, you actually clicked on this?</h1>
 </div>
 
 
@@ -178,8 +207,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="my-name-is-mario-truong-and-i-am-a-ucla-student-from-cedarburg-wisconsin.-i-enjoy-exploring-new-places-playing-piano-and-car-spotting.-to-learn-more-about-me-navigate-to-the-about-section-or-scroll-down-to-see-more-information" class="level3">
-<h3 class="anchored" data-anchor-id="my-name-is-mario-truong-and-i-am-a-ucla-student-from-cedarburg-wisconsin.-i-enjoy-exploring-new-places-playing-piano-and-car-spotting.-to-learn-more-about-me-navigate-to-the-about-section-or-scroll-down-to-see-more-information">My name is Mario Truong, and I am a UCLA student from Cedarburg, Wisconsin. I enjoy exploring new places, playing piano, and car-spotting. To learn more about me, navigate to the <a href="./about.html"><span style="color:IndianRed;">About</span></a> section or scroll down to see more information!</h3>
+<p>Growing up, I used to go on special trips with my mom to a Japanese supermarket in a suburb of Chicago. Inside this supermarket is a stationery store, which I would spend hours at a time in, exploring all of the different pens and pencils.</p>
+<p>I started collecting pencils, first. I liked all of the different mechanisms. Auto-rotating lead, shake-to-advance, twisting erasers. From there, I moved on to pens.</p>
+<section id="my-collection" class="level2">
+<h2 class="anchored" data-anchor-id="my-collection">My collection</h2>
+<p><img src="cross.jpg" class="img-fluid"> Currently, I own a ballpoint Cross Bailey, an Ohto Liberty (in UCLA colors, of course), a Caran d’Ache ballpoint, and a Kaweco sport (with a great green ink) to name a few of my <em>pens</em>. As far as pencils, my two favorites are the Tombow MONO Graph and the UNI <span class="math inline">\(\alpha\)</span>-gel switch.</p>
+<p>As a math major, my obsession with handwriting doesn’t end there, either! I love a good chalkboard, and pretty much anything to do with handwriting, notation, or the art of putting ideas into the physical world.</p>
 
 
 </section>

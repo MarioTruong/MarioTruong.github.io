@@ -1,16 +1,65 @@
 [
   {
+    "objectID": "posts/First Post/First Post.html",
+    "href": "posts/First Post/First Post.html",
+    "title": "First Post",
+    "section": "",
+    "text": "Welcome to my first post here on my website! I plan to share any miscellaneous thoughts here that I just need to get out."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Mario Truong",
+    "title": "Welcome",
     "section": "",
-    "text": "What can I say here asdfasdf\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "My name is Mario Truong, and I am a UCLA student from Cedarburg, Wisconsin. I enjoy exploring new places, playing piano, and car-spotting. To learn more about me, navigate to the About section or scroll down to see more information!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Currently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
+  },
+  {
+    "objectID": "about.html#academics",
+    "href": "about.html#academics",
+    "title": "About Me",
+    "section": "",
+    "text": "Currently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
+  },
+  {
+    "objectID": "about.html#philosophy",
+    "href": "about.html#philosophy",
+    "title": "About Me",
+    "section": "Philosophy",
+    "text": "Philosophy\nI believe that communication and innovation are two sides of the same coin. When creating change in the world, I strive to communicate my ideas effectively so that the power of my work or the work of others can be fully appreciated. Through various organizations, such as Design, Build, Fly at UCLA, I have learned how to effectively communicate with larger groups of creative and innovative individuals while pushing towards a shared goal, and I have learned the power of self-advocacy and amplifying the voices of others."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Mario’s Thoughts",
+    "section": "",
+    "text": "First Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pens.html",
+    "href": "pens.html",
+    "title": "Wait, you actually clicked on this?",
+    "section": "",
+    "text": "Growing up, I used to go on special trips with my mom to a Japanese supermarket in a suburb of Chicago. Inside this supermarket is a stationery store, which I would spend hours at a time in, exploring all of the different pens and pencils.\nI started collecting pencils, first. I liked all of the different mechanisms. Auto-rotating lead, shake-to-advance, twisting erasers. From there, I moved on to pens."
+  },
+  {
+    "objectID": "pens.html#my-collection",
+    "href": "pens.html#my-collection",
+    "title": "Wait, you actually clicked on this?",
+    "section": "My collection",
+    "text": "My collection\n Currently, I own a ballpoint Cross Bailey, an Ohto Liberty (in UCLA colors, of course), a Caran d’Ache ballpoint, and a Kaweco sport (with a great green ink) to name a few of my pens. As far as pencils, my two favorites are the Tombow MONO Graph and the UNI \\(\\alpha\\)-gel switch.\nAs a math major, my obsession with handwriting doesn’t end there, either! I love a good chalkboard, and pretty much anything to do with handwriting, notation, or the art of putting ideas into the physical world."
   }
 ]
