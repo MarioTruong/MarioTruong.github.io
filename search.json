@@ -4,42 +4,35 @@
     "href": "posts/First Post/First Post.html",
     "title": "First Post",
     "section": "",
-    "text": "Welcome to my first post here on my website! I plan to share any miscellaneous thoughts here that I just need to get out."
+    "text": "Welcome to my first post here on my website! I plan to share any miscellaneous thoughts here, things that I just want to get out into the world."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "My name is Mario Truong.",
     "section": "",
-    "text": "My name is Mario Truong, and I am a UCLA student from Cedarburg, Wisconsin. I enjoy exploring new places, playing piano, and car-spotting. To learn more about me, navigate to the About section or scroll down to see more information!"
+    "text": "Currently, I am a student at the University of California, Los Angeles where I study applied mathematics.\nInnovation occurs through the effective communication of creative ideas. I strive to be an advocate for ideas, whether that means fighting to support my own original work or amplifying the voices of others.\n\n\nMy Future\nAt the moment, I plan on pursuing graduate school in order to go into the field of operations research. I am drawn to this field as a result of my interest in mathematical simulation and modeling, as well as its wide range of applications. Additionally, this field significantly impacts many lives by speeding up ambulance response times, optimizing city planning, and planning organ transplant allocation.\nTo learn more about me, navigate to the about page.\n\n\n\n\n\n\n\n\n\n\n\n\nGet In Contact\nEmail: mariotruong@ucla.edu"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about.html#where-im-from",
+    "href": "about.html#where-im-from",
     "title": "About Me",
-    "section": "",
-    "text": "Currently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
+    "section": "Where I’m From",
+    "text": "Where I’m From\nI am a UCLA student from Wisconsin. Growing up, mathematics was always interesting to me, but it took me until high school to realize that I had an affinity for the precise language of proofs, and that I could apply my mathematical knowledge towards creative problem solving in physics and computer science. From there, I followed my passions all the way back to California, decades after my parents moved out of California.\n\n\n\n\n\n\n\nThe view on the way to UCLA"
   },
   {
     "objectID": "about.html#academics",
     "href": "about.html#academics",
     "title": "About Me",
-    "section": "",
-    "text": "Currently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
+    "section": "Academics",
+    "text": "Academics\nCurrently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
   },
   {
-    "objectID": "about.html#philosophy",
-    "href": "about.html#philosophy",
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
     "title": "About Me",
-    "section": "Philosophy",
-    "text": "Philosophy\nI believe that communication and innovation are two sides of the same coin. When creating change in the world, I strive to communicate my ideas effectively so that the power of my work or the work of others can be fully appreciated. Through various organizations, such as Design, Build, Fly at UCLA, I have learned how to effectively communicate with larger groups of creative and innovative individuals while pushing towards a shared goal, and I have learned the power of self-advocacy and amplifying the voices of others."
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About Me",
-    "section": "Interests",
-    "text": "Interests"
+    "section": "Skills",
+    "text": "Skills\nMathematics: I have taken courses in mathematics for applications as well as upper-division proofs-based and honors courses.\n\nLinear Algebra, Differential Equations, Discrete Mathematics, Multivariable Calculus, Real Analysis, \\(\\LaTeX\\)\n\nPhysical Sciences:\n\nPhysics (Mechanics, Electricity), General Chemistry\n\nComputer Science/Programming:\n\nPython: Keras, JAX, Scrapy, BeautifulSoup, NumPy, Pandas, PyTorch, TensorFlow, Flask, Quarto, PyQt\n\nMultilayer Perceptrons, Convolutional Neural Networks\n\nFamiliar with C++ and Java\n\nAdditionally, I am a member of UCLA’s Design, Build, Fly club on the aerodynamics subteam, so I have experience working with a team of engineers and with software like XFLR and SimScale.\nInterests:\n\nI love juggling and have been to many juggling festivals (MadFest, IJA)\nI collect pens! Rollerball and fountain pens are among my favorites\nI love playing music; I play piano and used to play French Horn\nBetween classes, I like to stop in the student union and play table tennis\nI’m a big Formula 1 fan (go Fernando!)\nAdditionally, I like photography, though I am still quite casual about it"
   },
   {
     "objectID": "blog.html",

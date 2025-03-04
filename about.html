@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -97,9 +126,8 @@ ul.task-list li input[type="checkbox"] {
     </span>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Mathematician</span>
-    </span>
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">Mathematician</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
@@ -132,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
     </span>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -178,16 +206,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<section id="where-im-from" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h2 class="anchored" data-anchor-id="where-im-from">Where I’m From</h2>
+<p>I am a UCLA student from Wisconsin. Growing up, mathematics was always interesting to me, but it took me until high school to realize that I had an affinity for the precise language of proofs, and that I could apply my mathematical knowledge towards creative problem solving in physics and computer science. From there, I followed my passions all the way back to California, decades after my parents moved out of California.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=""><img src="utah.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:95.0%" alt="The view on the way to UCLA"></a></p>
+</figure>
+</div>
+<figcaption>The view on the way to UCLA</figcaption>
+</figure>
+</div>
+</section>
+<section id="section" class="level3 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="section">————–</h3>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href=""><img src="mam.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:120.0%" alt="The Milwaukee Art Museum"></a></p>
+</figure>
+</div>
+<figcaption>The Milwaukee Art Museum</figcaption>
+</figure>
+</div>
+</section>
+</div>
+</div>
 <section id="academics" class="level2">
 <h2 class="anchored" data-anchor-id="academics">Academics</h2>
 <p>Currently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization.</p>
 </section>
-<section id="philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="philosophy">Philosophy</h2>
-<p>I believe that communication and innovation are two sides of the same coin. When creating change in the world, I strive to communicate my ideas effectively so that the power of my work or the work of others can be fully appreciated. Through various organizations, such as Design, Build, Fly at UCLA, I have learned how to effectively communicate with larger groups of creative and innovative individuals while pushing towards a shared goal, and I have learned the power of self-advocacy and amplifying the voices of others.</p>
-</section>
-<section id="interests" class="level2">
-<h2 class="anchored" data-anchor-id="interests">Interests</h2>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<p><strong>Mathematics:</strong> I have taken courses in mathematics for applications as well as upper-division proofs-based and honors courses.</p>
+<ul>
+<li>Linear Algebra, Differential Equations, Discrete Mathematics, Multivariable Calculus, Real Analysis, <span class="math inline">\(\LaTeX\)</span></li>
+</ul>
+<p><strong>Physical Sciences:</strong></p>
+<ul>
+<li>Physics (Mechanics, Electricity), General Chemistry</li>
+</ul>
+<p><strong>Computer Science/Programming:</strong></p>
+<ul>
+<li>Python: Keras, JAX, Scrapy, BeautifulSoup, NumPy, Pandas, PyTorch, TensorFlow, Flask, Quarto, PyQt
+<ul>
+<li>Multilayer Perceptrons, Convolutional Neural Networks</li>
+</ul></li>
+<li>Familiar with C++ and Java</li>
+</ul>
+<p>Additionally, I am a member of UCLA’s Design, Build, Fly club on the aerodynamics subteam, so I have experience working with a team of engineers and with software like XFLR and SimScale.</p>
+<p><strong>Interests:</strong></p>
+<ul>
+<li>I love juggling and have been to many juggling festivals (MadFest, IJA)</li>
+<li>I collect pens! Rollerball and fountain pens are among my favorites</li>
+<li>I love playing music; I play piano and used to play French Horn</li>
+<li>Between classes, I like to stop in the student union and play table tennis</li>
+<li>I’m a big Formula 1 fan (go Fernando!)</li>
+<li>Additionally, I like photography, though I am still quite casual about it</li>
+</ul>
 
 
 </section>
