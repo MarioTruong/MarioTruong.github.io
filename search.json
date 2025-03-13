@@ -7,11 +7,18 @@
     "text": "Welcome to my first post here on my website! I plan to share any miscellaneous thoughts here, things that I just want to get out into the world."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My name is Mario Truong.",
+    "objectID": "juggler.html#i-can-juggle-5-at-a-time.",
+    "href": "juggler.html#i-can-juggle-5-at-a-time.",
+    "title": "Mario Truong",
+    "section": "I can juggle 5 at a time.",
+    "text": "I can juggle 5 at a time.\nWhen I was young, I got a book that teaches the reader how to juggle. I learned how to actually juggle (very poorly) from this, but quickly got bored, relegating the book to the depths of my closet.\nThen, all of a sudden, my sister starts picking up juggling through her high school chemistry teacher. As a brother, my instincts kicked in–I needed to beat her at juggling.\nThe rest is history. I have attended international juggling festivals, the 47th annual MadFest, and am the treasurer (kinda) of my local juggling club. Juggling is fun, and I encourage anyone interested to learn how to juggle!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Mario’s Thoughts",
     "section": "",
-    "text": "Currently, I am a student at the University of California, Los Angeles where I study applied mathematics.\nInnovation occurs through the effective communication of creative ideas. I strive to be an advocate for ideas, whether that means fighting to support my own original work or amplifying the voices of others.\n\n\nMy Future\nAt the moment, I plan on pursuing graduate school in order to go into the field of operations research. I am drawn to this field as a result of my interest in mathematical simulation and modeling, as well as its wide range of applications. Additionally, this field significantly impacts many lives by speeding up ambulance response times, optimizing city planning, and planning organ transplant allocation.\nTo learn more about me, navigate to the about page.\n\n\n\n\n\n\n\n\n\n\n\n\nGet In Contact\nEmail: mariotruong@ucla.edu"
+    "text": "First Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#where-im-from",
@@ -28,18 +35,25 @@
     "text": "Academics\nCurrently, I am a second year undergraduate at the University of California, Los Angeles. I am an applied mathematics major, and my interests include differential equations, simulations, and optimization. I am a member of the College Scholars Program, and am pursuing the Departmental Honors Program as well as a computing specialization."
   },
   {
+    "objectID": "about.html#experiences",
+    "href": "about.html#experiences",
+    "title": "About Me",
+    "section": "Experiences",
+    "text": "Experiences\n\n\n\n\n\n\nDesign, Build, Fly at UCLA\nI am currently a member of the aerodynamics subteam, where I conduct computational fluid dynamics simulations, post processing data analysis, and trade studies. Learning how to use software such as SimScale and XFLR, as well as being part of a team of engineers taught me the effective communication and collaborations skills required of engineers.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTraffiX\nI worked with two other team members to code a traffic simulation package. Presenting this project to others required describing a technical model in intuitive terms, meaning this project challenged both my communication and coding skills. We worked with NetworkX and integrated OSMNX to glean real-world data to simulate for this project. Overall, learning how to build a model from scratch taught me how to apply careful observation about the world around us to a mathematical problem.\n\n\n\n\n\n\n\n\n\nNASA and the Wisconsin Space Grant Consortium’s Aerospace Jam\nI worked on a drone for a competition inspired by NASA’s Ingenuity mission. I coded an arduino to control a claw, ultrasonic sensor, and an air pump via an Android app. Competition day was nerve-wracking, but my teammates and I persevered and had an amazing experience designing, building, and testing our drone."
+  },
+  {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
     "title": "About Me",
     "section": "Skills",
-    "text": "Skills\nMathematics: I have taken courses in mathematics for applications as well as upper-division proofs-based and honors courses.\n\nLinear Algebra, Differential Equations, Discrete Mathematics, Multivariable Calculus, Real Analysis, \\(\\LaTeX\\)\n\nPhysical Sciences:\n\nPhysics (Mechanics, Electricity), General Chemistry\n\nComputer Science/Programming:\n\nPython: Keras, JAX, Scrapy, BeautifulSoup, NumPy, Pandas, PyTorch, TensorFlow, Flask, Quarto, PyQt\n\nMultilayer Perceptrons, Convolutional Neural Networks\n\nFamiliar with C++ and Java\n\nAdditionally, I am a member of UCLA’s Design, Build, Fly club on the aerodynamics subteam, so I have experience working with a team of engineers and with software like XFLR and SimScale.\nInterests:\n\nI love juggling and have been to many juggling festivals (MadFest, IJA)\nI collect pens! Rollerball and fountain pens are among my favorites\nI love playing music; I play piano and used to play French Horn\nBetween classes, I like to stop in the student union and play table tennis\nI’m a big Formula 1 fan (go Fernando!)\nAdditionally, I like photography, though I am still quite casual about it"
+    "text": "Skills\nMathematics: I have taken courses in mathematics for applications as well as upper-division proofs-based and honors courses.\n\nLinear Algebra, Differential Equations, Discrete Mathematics, Multivariable Calculus, Real Analysis, \\(\\LaTeX\\)\n\nPhysical Sciences:\n\nPhysics (Mechanics, Electricity), General Chemistry\n\nComputer Science/Programming:\n\nPython: Keras (JAX, TensorFlow Backend), JAX, NetworkX, Scrapy, BeautifulSoup, NumPy, Pandas, , Flask, Quarto, PyQt, and some PyTorch\n\nMultilayer Perceptrons, Convolutional Neural Networks\n\nFamiliar with C++ and Java\n\nInterests:\n\nI love juggling and have been to many juggling festivals (MadFest, IJA)\nI collect pens! Rollerball and fountain pens are among my favorites\nI love playing music; I play piano and used to play French Horn\nBetween classes, I like to stop in the student union and play table tennis\nI’m a big Formula 1 fan (go Fernando!)\nAdditionally, I like photography, though I am still quite casual about it"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Mario’s Thoughts",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My name is Mario Truong.",
     "section": "",
-    "text": "First Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Currently, I am a student at the University of California, Los Angeles where I study applied mathematics.\nInnovation occurs through the effective communication of creative ideas. I strive to be an advocate for ideas, whether that means fighting to support my own original work or amplifying the voices of others.\n\n\nMy Future\nAt the moment, I plan on pursuing graduate school in order to go into the field of operations research. I am drawn to this field as a result of my interest in mathematical simulation and modeling, as well as its wide range of applications. Additionally, this field significantly impacts many lives by speeding up ambulance response times, optimizing city planning, and planning organ transplant allocation.\nTo learn more about me, navigate to the about page.\n\n\n\n\n\n\n\n\n\n\n\n\nGet In Contact\nEmail: mariotruong@ucla.edu"
   },
   {
     "objectID": "pens.html",
