@@ -148,30 +148,6 @@ window.Quarto = {
 <span class="menu-text">Pen Enthusiast</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">|</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">|</span>
-    </span>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -205,12 +181,29 @@ window.Quarto = {
 </header>
 
 
-<p>Growing up, I used to go on special trips with my mom to a Japanese supermarket in a suburb of Chicago. Inside this supermarket is a stationery store, which I would spend hours at a time in, exploring all of the different pens and pencils.</p>
+<p>I used to go on special trips with my mom to a Japanese supermarket in a suburb of Chicago, and would spend hours at a time in the stationery section, exploring all manner of pens and pencils.</p>
 <p>I started collecting pencils, first. I liked all of the different mechanisms. Auto-rotating lead, shake-to-advance, twisting erasers. From there, I moved on to pens.</p>
 <section id="my-collection" class="level2">
 <h2 class="anchored" data-anchor-id="my-collection">My collection</h2>
-<p><img src="cross.jpg" class="img-fluid"> Currently, I own a ballpoint Cross Bailey, an Ohto Liberty (in UCLA colors, of course), a Caran d’Ache ballpoint, and a Kaweco sport (with a great green ink) to name a few of my <em>pens</em>. As far as pencils, my two favorites are the Tombow MONO Graph and the UNI <span class="math inline">\(\alpha\)</span>-gel switch.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p>I own a ballpoint Cross Bailey, an Ohto Liberty (in UCLA colors, of course), a Caran d’Ache ballpoint, and a Kaweco sport (with my favorite green ink) to name a few of my <em>pens</em>. As far as pencils, my two favorites are the Tombow MONO Graph and the UNI <span class="math inline">\(\alpha\)</span>-gel switch.</p>
 <p>As a math major, my obsession with handwriting doesn’t end there, either! I love a good chalkboard, and pretty much anything to do with handwriting, notation, or the art of putting ideas into the physical world.</p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="cross.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="pen_collection.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -306,7 +299,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/MarioTruong\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
